@@ -4,6 +4,7 @@ Analista de requisitos - Barrón Mendoza Eduardo
 Diseñador UX/UI - Francisco Nicolás Ana
 Desarrollador Frontend - Arvizu Rueda Emiliano
 Desarrollador Backend -  Jiménez De Santiago Jesús
+Tester / QA - Gutiérrez Rodríguez Eduardo
 
 Propuesta 1: Página Web de Recetas
 Factibilidad técnica:
