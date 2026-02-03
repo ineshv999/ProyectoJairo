@@ -1,2 +1,126 @@
-Hola
-index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>RecetasCocina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Estilos básicos -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ff7043;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .busqueda {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .busqueda input {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .recetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .receta {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .receta h3 {
+            margin-top: 0;
+            color: #ff7043;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍽️ RecetasCocina</h1>
+    <p>Encuentra recetas fáciles y deliciosas</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Recetas</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<div class="container">
+
+    <div class="busqueda">
+        <input type="text" placeholder="Buscar receta...">
+    </div>
+
+    <section class="recetas">
+        <div class="receta">
+            <h3>Tacos al pastor</h3>
+            <p>Deliciosos tacos con carne adobada y piña.</p>
+        </div>
+
+        <div class="receta">
+            <h3>Enchiladas verdes</h3>
+            <p>Enchiladas rellenas de pollo con salsa verde.</p>
+        </div>
+
+        <div class="receta">
+            <h3>Pastel de chocolate</h3>
+            <p>Esponjoso y perfecto para cualquier ocasión.</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 RecetasCocina | Proyecto académico</p>
+</footer>
+
+</body>
+</html>
